@@ -1,0 +1,13 @@
+@import 'normalize.css';
+
+body {
+  font-family: var(--font-family);
+  font-feature-settings: "palt","kern";
+  font-kerning: normal;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-link);
+}
