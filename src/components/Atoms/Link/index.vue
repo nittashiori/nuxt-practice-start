@@ -7,10 +7,10 @@
 
 <style lang="scss" scoped>
 .link {
-  color: red;
+  color: var(--color-primary);
 
   span {
-    color: blue;
+    color: var(--color-link);
   }
 }
 </style>

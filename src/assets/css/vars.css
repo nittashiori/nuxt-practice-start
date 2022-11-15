@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #DD1B57;
+  --color-link: #349BF4;
+  --color-text: #151515;
+  --color-border: ##E8E8E8;
+  --color-gray: ##F2F2F2;
+  --color-white: #ffffff;
+
+  --font-family: Roboto, "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+}
