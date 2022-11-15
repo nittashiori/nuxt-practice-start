@@ -9,3 +9,8 @@ export const $default = () => ({
   components: { HeaderNavSp },
   template: `<HeaderNavSp />`
 })
+
+export const Active = () => ({
+  components: { HeaderNavSp },
+  template: `<HeaderNavSp active />`
+})

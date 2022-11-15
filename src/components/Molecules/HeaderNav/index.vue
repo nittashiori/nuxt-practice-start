@@ -3,33 +3,22 @@
     <ul class="header-nav__list">
       <li
         class="header-nav__item"
-        v-for="list in lists"
-        :key="list.index"
+        v-for="nav in navs"
+        :key="nav.index"
       >
-        <a :href=list.href>{{ list.label }}</a>
+        <nuxt-link :to=nav.href>{{ nav.label }}</nuxt-link>
       </li>
     </ul>
   </nav>
 </template>
 
 <script>
+import { navs } from "~/utils/header.js"
+
 export default {
   data() {
     return {
-      lists: [
-        {
-          label: "ホーム",
-          href: "/",
-        },
-        {
-          label: "メッセージ",
-          href: "/message",
-        },
-        {
-          label: "会社概要",
-          href: "/company"
-        }
-      ]
+      navs
     }
   }
 }

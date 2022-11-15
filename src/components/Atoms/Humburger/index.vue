@@ -80,7 +80,8 @@ export default {
       }
 
       &:nth-of-type(3) {
-        bottom: 50%;
+        top: 50%;
+        bottom: initial;
         translate: 0 -50%;
         rotate: -45deg;
       }

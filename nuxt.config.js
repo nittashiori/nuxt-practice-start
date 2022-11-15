@@ -34,7 +34,9 @@ export default {
   components: [
     '~/components',
     '~/components/Atoms',
-    '~/components/Molecules'
+    '~/components/Molecules',
+    '~/components/Organisms',
+    '~/components/Pages'
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
