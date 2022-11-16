@@ -41,8 +41,10 @@
   }
 
   &__subtitle {
+    margin: 0;
     font-size: 24px;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.41);
+    letter-spacing: 0.1em;
 
     @media screen and (max-width: 767px) {
       font-size: 20px;
