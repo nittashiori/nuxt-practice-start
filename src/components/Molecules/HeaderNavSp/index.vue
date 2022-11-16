@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { navs } from "~/utils/header.js"
+import { navs } from "~/utils/navs.js"
 
 export default {
   props: {
