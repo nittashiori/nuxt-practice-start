@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Header />
     <Tutorial/>
-    <Footer />
   </div>
 </template>
 
